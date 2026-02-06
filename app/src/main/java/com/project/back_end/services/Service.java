@@ -72,7 +72,7 @@ public class Service {
 
     /** Filter doctors by name, specialty, and available time */
     public Map<String, Object> filterDoctor(String name, String specialty, String time) {
-        return doctorService.filterDoctorsByNameSpecilityandTime(name, specialty, time);
+        return doctorService.filterDoctorsByNameSpecialityandTime(name, specialty, time);
     }
 
     /** Validate if appointment time is available */
