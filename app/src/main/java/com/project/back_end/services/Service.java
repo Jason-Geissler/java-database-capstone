@@ -1,9 +1,9 @@
 package com.project.back_end.services;
 
-import com.project.back_end.model.Admin;
-import com.project.back_end.model.Appointment;
-import com.project.back_end.model.Login;
-import com.project.back_end.model.Patient;
+import com.project.back_end.models.Admin;
+import com.project.back_end.models.Appointment;
+import com.project.back_end.models.Login;
+import com.project.back_end.models.Patient;
 import com.project.back_end.repo.AdminRepository;
 import com.project.back_end.repo.DoctorRepository;
 import com.project.back_end.repo.PatientRepository;
