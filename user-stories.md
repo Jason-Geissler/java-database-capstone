@@ -33,3 +33,23 @@ Unavailability should block new bookings for those time slots.
 Profile updates should be immediately reflected in patient-facing views.
 Patient data should be visible only for scheduled appointments.
 
+Title:
+As a patient, I want to browse doctors, manage my account, and book appointments, so that I can easily receive medical care.
+
+Acceptance Criteria:
+
+Patient can view a list of doctors without logging in.
+Patient can register using an email and password to create an account.
+Patient can log in and log out securely.
+Patient can book an hour-long appointment with a doctor.
+Patient can view a list of upcoming appointments.
+Priority: High
+Story Points: 8
+
+Notes:
+
+Email must be unique during registration.
+Appointments should not overlap for the same doctor.
+Only authenticated users can book or view appointments.
+
+
